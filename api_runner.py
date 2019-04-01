@@ -2,9 +2,10 @@
 # Created by xj on 2019/3/10
 import sys
 import os
-curpath=os.path.abspath(os.path.dirname(__file__)) #获取当前目录名称
-rootpath=os.path.split(curpath)[0]  #获取当前目录的绝对路径后取到根路径
-sys.path.append(rootpath) #python编译的系统路径中加入根路径
+# curpath=os.path.abspath(os.path.dirname(__file__)) #获取当前目录名称
+# rootpath=os.path.split(curpath)[0]  #获取当前目录的绝对路径后取到根路径
+# sys.path.append(rootpath) #python编译的系统路径中加入根路径
+os.path.append("./")
 
 import unittest
 import HTMLTestRunnerNew
